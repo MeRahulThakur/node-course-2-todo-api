@@ -22,9 +22,9 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp',(err, db)=>{
     //     console.log(JSON.stringify(result.ops,undefined,2));
     // });
 
-    // db.collection('Users').insertOne({
+    // db.collection('users').insertOne({
     //     //_id: 123,
-    //     name: 'Rahul Thakur',
+    //     name: 'Rahul Kumar Thakur',
     //     age: 25,
     //     location: 'Bijoygarh Kolkata-700032'
     // },(err, result)=>{
